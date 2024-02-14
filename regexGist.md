@@ -49,7 +49,13 @@ ex. \d{1,3} Matches 1-3 consecutive digits
 
 ### Grouping Constructs
 
+Grouping constructs allow you to treat multiple characters as a one group, the way you group a section is by using the parentheses '()'.
+
+ex. (hello){3} - Would Match 'hellohellohello'
+
 ### Bracket Expressions
+
+
 
 ### Character Classes
 
@@ -62,6 +68,10 @@ ex. chicken|beef - Matches "Chicken" or "Beef" in text.
 ### Flags
 
 ### Character Escapes
+
+Character Escapes signified by the '\' are used to escape special characters like '{}' allowing literal interpretation. This applies universally, except in bracket expressions.
+
+
 
 ## Author
 
