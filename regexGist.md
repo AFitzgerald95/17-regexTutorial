@@ -61,6 +61,10 @@ ex. [a-z] matches lowercase letters and [0-9] matches numbers
 
 ### Character Classes
 
+Define sets of characters that can execute a match in an input string.
+
+ex. \d - Matches any numerical digit.
+
 ### The OR Operator
 
 the OR Operator is signified by the vertical bar '|' and allows you search multiple alternatives for a pattern.
@@ -81,4 +85,4 @@ ex. \.\d - '\.' represents a literal period and '\d' represents a literal digit.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This document was composed by Austin Fitzgerald, a student of the UCF Full-Stack Bootcamp. You can view more work [Here](https://github.com/AFitzgerald95)
