@@ -69,11 +69,15 @@ ex. chicken|beef - Matches "Chicken" or "Beef" in text.
 
 ### Flags
 
+Flags are places after the second slash to define to define additional functionality. Common flags include a 'g' for global search, 'i' for case-insensitive search and 'm' for multi-line search
+
+ex. /regex/gi; matches "regex" globally and case insensitively
+
 ### Character Escapes
 
 Character Escapes signified by the '\' are used to escape special characters like '{}' allowing literal interpretation. This applies universally, except in bracket expressions.
 
-ex.
+ex. \.\d - '\.' represents a literal period and '\d' represents a literal digit. 
 
 ## Author
 
