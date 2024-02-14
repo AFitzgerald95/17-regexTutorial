@@ -21,7 +21,31 @@ This document will discuss several components of regular expressions including a
 
 ### Anchors
 
+Anchors are special characters that represent a position in a string and are used to specify the beginning and end of a string where a match should occur.
+
+* '^' Matches the beginning of a line whereas '$' will match the end of a line.
+
+ex. ^Alpha Omega$
+
 ### Quantifiers
+
+Quantifiers are special characters that dictate the number of occurrences of a character or group in a pattern.
+
+* '*' - Zero or more times
+
+* '+' - One or more times
+
+* '?' - Zero or one time
+
+* '{}' - Can provide three different ways to set limits for a match:
+
+    *  { n } - Matches the pattern exactly 'n' number of times
+
+    *  { n, } - Matches the pattern at least 'n' number of times
+
+    *   {n, x } - Matches the pattern from a minimum of 'n' number of times to a max of 'x' number of   times 
+
+ex. \d{1,3} Matches 1-3 consecutive digits
 
 ### Grouping Constructs
 
@@ -30,6 +54,10 @@ This document will discuss several components of regular expressions including a
 ### Character Classes
 
 ### The OR Operator
+
+the OR Operator is signified by the vertical bar '|' and allows you search multiple alternatives for a pattern.
+
+ex. chicken|beef - Matches "Chicken" or "Beef" in text.
 
 ### Flags
 
