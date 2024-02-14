@@ -55,7 +55,9 @@ ex. (hello){3} - Would Match 'hellohellohello'
 
 ### Bracket Expressions
 
+Bracket expressions in regex specify a range of characters to match like [abc] which will look for a string that has 'a', 'b', or 'c'.
 
+ex. [a-z] matches lowercase letters and [0-9] matches numbers
 
 ### Character Classes
 
@@ -71,7 +73,7 @@ ex. chicken|beef - Matches "Chicken" or "Beef" in text.
 
 Character Escapes signified by the '\' are used to escape special characters like '{}' allowing literal interpretation. This applies universally, except in bracket expressions.
 
-
+ex.
 
 ## Author
 
