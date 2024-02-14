@@ -85,4 +85,4 @@ ex. \.\d - '\.' represents a literal period and '\d' represents a literal digit.
 
 ## Author
 
-This document was composed by Austin Fitzgerald, a student of the UCF Full-Stack Bootcamp. You can view more work [Here](https://github.com/AFitzgerald95)
+This document was composed by Austin Fitzgerald, a student of the UCF Full-Stack Bootcamp. You can view more work [here](https://github.com/AFitzgerald95).
